@@ -1,0 +1,83 @@
+body{
+background:url(mix.jpg);
+background-size: cover;
+background-position: center center;
+position: relative;
+
+}
+.menu {
+	   list-style:none;
+	   background: #944;
+	   width: 500px
+	   padding: 0px
+	   border-radius: 5px;
+       margin: 20px;
+       border-bottom: 3px solid #aaa
+}
+
+.menu li {
+	display: inline-block;
+	padding: 5px;
+	transition: .3s all;
+}
+
+.menu li :hover {
+    background: #FFD700;
+}
+.menu li :hover a {
+     color: #fff
+
+}
+
+.menu li a {
+   text-decoration:  none;
+   color: #000;
+   transition: 3s all;
+}
+
+.text {
+   color: #800080
+}
+.login{
+border:1px solid #fff
+padding: 15px;
+color: #fff;
+background: #700;
+border-radius: 5px;
+transition: all 0.5;
+
+}
+.btn{
+    background:transparent;
+    border: 2px solid transparent;
+    box-sizing: border-box;
+    cursor: pointer;
+    font-size: 5rem;
+    font-weight: 700;
+    line-height: 1;
+    margin: 18px;
+    padding: 15px 25px;
+    text-align: center;
+    text-decoration: none;
+    display:inline-block;
+    outline:none;
+    position:relative;
+    top:0;
+    text-shadow:0 1px 1px rgba(0, 0, 0, 0.5);
+    -webkit-transition: all 0.2s ease-in-out 0s;
+    -moz-transition: all 0.2s ease-in-out 0s;
+    -ms-transition: all 0.2s ease-in-out 0s;
+     transition: all 0.2s ease-in-out 0s;
+
+}
+.blue:hover{
+    background:#56d7ed;    
+}
+.red.press-me:focus{
+    box-shadow: 0 2px 0 #d82a1a;
+}
+
+
+
+
+}
